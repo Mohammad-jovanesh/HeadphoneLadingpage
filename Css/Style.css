@@ -474,159 +474,12 @@ color: #fff;
 /* Footer Styles End */
 /*----------------------------------------------------*/
 /*---------------------------------------------------*/
-
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* Media Querys */
 
-@media screen and (max-width:500px){
-    .header .logo{
-        font-size:1.5rem !important;
-        flex: 80% !important;
-    }
-    .mobile_nav {
-        display:block;
-       
-       
-    }
-    .mobile_nav i {
-        font-size:2rem !important;
-        flex: 20% !important;
 
-    }
-    .Features{
-        grid-template-columns: repeat(1,1fr) !important;
-    }
-    .features_content .features_content_title h1 {
-        
-    }
-    .products{
-        padding-top:50px;
-        height:auto;
-        padding:60px 0 20px;
-    }
-    .Products_item{
-        margin-right: 0 !important;
-    }
-    .new_product{
-        left:0;
-        font-size: 1.2rem;
-    }
-    .products_Title h1{
-       font-size:2rem;
-    }
-    .Product_Content{
-        width:80%;
-    }
-    .Product_pragraph{
-        white-space: nowrap; 
-        width:100%;
-        overflow: hidden;
-        text-overflow:ellipsis;
-    }
-    .Order{
-        padding:2% 5% 4% !important;
-    }
-    .item{
-        padding:0 20px;
-    }
-    .item p{
-        font-size:1rem;
-        margin-bottom: 50px;
-        color: #bbb;
-    }
-    .contactUs {
-        flex-direction: column;
-    }
-    .input_Email {
-        width:80%;
-        margin-bottom:20px;
-    }
-    .footer{
-        flex-direction: column;
-        padding-top:10%;
-    }
-    .footer div{
-        margin-bottom: 20px;
-    }
-}
 
-@media screen and (max-width:768px){
-    .header nav{
-        display:none;
-    }
-    .header .extraContent {
-        display:none;
-    }
-    .header .logo{
-        font-size:1.5rem;
-    }
-    .mobile_nav {
-        display:block;
-    }
-    .close_icon{
-        display:none !important;
-    }
-    .menu_mobile{
-        display:flex;
-        
-    }
-    .banner {
-        justify-content: center;
-    }
-    .banner .Banner_Text{
-        margin:0!important;
-        text-align: center;
-    }
-    .banner_Title{
-        font-size:3.5rem !important;
-    }
-    .Order_Btn{
-        padding:10px 15px !important;
-    }
-    .Features{
-        grid-template-columns: repeat(1,1fr);
-        height:auto;
-        background-position: 65%;
-    }
-    .Features .Features_item {
-        border-bottom:2px solid #fff;
-    }
-    .Features .Features_item:nth-child(1){
-        justify-content:flex-start;
-    }
-    .Features .Features_item:nth-child(3){
-        justify-content:flex-start;
-    }
-    .Product_btn{
-        font-size:1.5rem !important;
-        padding:10px 40px !important;
-    }
-    .Order{
-        flex-direction: column;
-    }
-    .Order_Content{
-     margin-right: 0;
-     text-align:center;
-    }
-    .Order_paragraph{
-        
-        width:80%;
-        margin: 10px auto 20px;
-
-    }
-    .Reviews_Title{
-        font-size:2rem;
-    }
-    .item h2{
-        font-size:1.7rem;
-    }
-    .footer{
-        flex-direction: column;
-        padding-top:10%;
-    }
-    .footer div{
-        margin-bottom: 20px;
-    }
-}
 
 @media screen and (max-width: 1024px) {
     .navbar{
@@ -686,4 +539,161 @@ color: #fff;
     }
    
 }
+@media screen and (max-width:768px){
+    .header nav{
+        display:none;
+    }
+    .header .extraContent {
+        display:none;
+    }
+    .header .logo{
+        font-size:1.5rem;
+    }
+    .mobile_nav {
+        display:block;
+    }
+    .close_icon{
+        display:none !important;
+    }
+    .menu_mobile{
+        display:flex;
+        
+    }
+    .banner {
+        justify-content: center;
+    }
+    .banner .Banner_Text{
+        margin:0!important;
+        text-align: center;
+    }
+    .banner_Title{
+        font-size:3.5rem !important;
+    }
+    .Order_Btn{
+        padding:10px 15px !important;
+    }
+    .Features{
+        grid-template-columns: repeat(1,1fr);
+        height:auto;
+        background-position: 65%;
+    }
+    .Features .Features_item {
+        border-bottom:2px solid #fff;
+    }
+    .Features .Features_item:nth-child(1){
+        justify-content:flex-start;
+    }
+    .Features .Features_item:nth-child(3){
+        justify-content:flex-start;
+    }
+    .Product_btn{
+        font-size:1.5rem ;
+        padding:10px 40px !important;
+    }
+    .Order{
+        flex-direction: column;
+    }
+    .Order_Content{
+     margin-right: 0;
+     text-align:center;
+    }
+    .Order_paragraph{
+        
+        width:80%;
+        margin: 10px auto 20px;
+
+    }
+    .Reviews_Title{
+        font-size:2rem;
+    }
+    .item h2{
+        font-size:1.7rem;
+    }
+    .footer{
+        flex-direction: column;
+        padding-top:10%;
+    }
+    .footer div{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:500px){
+    .header .logo{
+        font-size:1.5rem !important;
+        flex: 80% !important;
+    }
+    .mobile_nav {
+        display:block;
+       
+       
+    }
+    .mobile_nav i {
+        font-size:2rem !important;
+        flex: 20% !important;
+
+    }
+    .Features{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .features_content .features_content_title h1 {
+        
+    }
+    .products{
+        padding-top:50px;
+        height:auto;
+        padding:60px 0 20px;
+    }
+    .Products_item{
+        width:80%;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    .new_product{
+        left:35px;
+        font-size: 1.2rem;
+    }
+    .products_Title h1{
+       font-size:2rem;
+    }
+    .Product_Content{
+        width:80%;
+    }
+    .Product_pragraph{
+        white-space: nowrap; 
+        width:100%;
+        overflow: hidden;
+        text-overflow:ellipsis;
+    }
+    .Product_btn{
+        font-size:1.5rem !important;
+        width:80%
+    }
+    .Order{
+        padding:2% 5% 4% !important;
+    }
+    .item{
+        padding:0 20px;
+    }
+    .item p{
+        font-size:1rem;
+        margin-bottom: 50px;
+        color: #bbb;
+    }
+    .contactUs {
+        flex-direction: column;
+    }
+    .input_Email {
+        width:80%;
+        margin-bottom:20px;
+    }
+    .footer{
+        flex-direction: column;
+        padding-top:10%;
+    }
+    .footer div{
+        margin-bottom: 20px;
+    }
+}
+
+
 
