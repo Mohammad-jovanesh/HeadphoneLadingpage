@@ -567,7 +567,7 @@ color: #fff;
         text-align: center;
     }
     .banner_Title{
-        font-size:3.5rem !important;
+        font-size:3.5rem ;
     }
     .Order_Btn{
         padding:10px 15px !important;
@@ -621,6 +621,15 @@ color: #fff;
     .header .logo{
         font-size:1.5rem !important;
         flex: 80% !important;
+    }
+    .banner .banner_model{
+        font-size:1rem;
+    }
+    .banner_Title{
+        font-size:2rem;
+    }
+    .Order_Btn{
+font-size:1.5rem
     }
     .mobile_nav {
         display:block;
