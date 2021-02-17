@@ -39,7 +39,7 @@ ul {
     font-family:var(--overpas);
     font-weight:700;
     margin-right: 50px;
-    flex: 15%;
+    flex:40%;
     color: #fff;
 }
 .header nav {
