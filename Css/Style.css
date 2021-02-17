@@ -18,7 +18,7 @@ ul {
 
 .header {
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     margin: 0 auto;
@@ -476,6 +476,7 @@ color: #fff;
 /*---------------------------------------------------*/
 
 /* Media Querys */
+
 @media screen and (max-width:500px){
     .header .logo{
         font-size:1.5rem !important;
@@ -490,6 +491,12 @@ color: #fff;
         font-size:2rem !important;
         flex: 20% !important;
 
+    }
+    .Features{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .features_content .features_content_title h1 {
+        
     }
     .products{
         padding-top:50px;
@@ -522,7 +529,7 @@ color: #fff;
         padding:0 20px;
     }
     .item p{
-        font-size:1.5rem;
+        font-size:1rem;
         margin-bottom: 50px;
         color: #bbb;
     }
